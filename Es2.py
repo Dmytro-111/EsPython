@@ -1,0 +1,6 @@
+a=str(input("Inserisci la frase"))
+n1=int(a.find(" ",1))
+print(n1)
+n2=int(a.find(" ", n1+1))
+print(n2)
+print(a[n1:n2])

@@ -9,7 +9,7 @@ while True:
     else:
         partecipanti[nome] = rata
 
-    print("Situazione attuale:")
+    print("Totale pagato a persona: ")
     print(partecipanti)
 
     totale = sum(partecipanti.values())

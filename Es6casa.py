@@ -1,6 +1,6 @@
-li = ['a', 'b', 'd', 'a', 'd', 'c', 'a']
+stringa = "abdadca"
 frequenza = {}
-for lettera in li:
+for lettera in stringa:
     if lettera in frequenza:
         frequenza[lettera] += 1
     else:

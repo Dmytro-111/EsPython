@@ -15,6 +15,6 @@ while True:
     totale = sum(partecipanti.values())
     print("La somma totale di tutti versamenti:", totale)
 
-    scelta = input("Vuoi continuare? (si/no): ")
+    scelta = int("Vuoi aggiungere qualcosa? (si/no): ")
     if scelta != "si":
         break

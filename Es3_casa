@@ -1,0 +1,7 @@
+num = [5, 4, -3, 6, 8]
+n_opposti = []
+
+for n in num:
+        n_opposti.append(-n)
+
+print("La lista dei numeri opposti è:", n_opposti)

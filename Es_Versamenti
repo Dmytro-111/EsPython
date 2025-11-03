@@ -16,5 +16,5 @@ while True:
     print("La somma totale di tutti versamenti:", totale)
 
     scelta = int("Vuoi aggiungere qualcosa? (si/no): ")
-    if scelta != "si":
+    if scelta == "no":
         break
